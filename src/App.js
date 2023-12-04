@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+// import Search from './Search'
+// import Pract from './Pract'
+// import Pract2 from './Prac2'
+// import Pract3 from './Pract3'
+// import Pract4 from './Pract4'
+// import Hooks from './Hooks'
+// import Search2 from './Search2'
+// import Task from './Task'
+// import Pract4 from './Pract4'
+// import Card from './PropsUse'
+// import Hooks2 from './Hooks2'
+// import Props from './Props'
+// import Pract5 from './Pract5'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  render () {
+    return (
+      <div>
+        {/* <Search/> */}
+        {/* <Pract name={"shahid"}/> 
+
+
+
+*/}
+
+        {/* <Hooks/> */}
+        {/* <Task/> */}
+        {/* <Search2/> */}
+
+        {/* <Props heading='My paper' desc='hope to be easy' /> */}
+
+        {/* 
+        <Hooks2/> */}
+        {/* <Pract5/> */}
+      </div>
+    )
+  }
 }
-
-export default App;
