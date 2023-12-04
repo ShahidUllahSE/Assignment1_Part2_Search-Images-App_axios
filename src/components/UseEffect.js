@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
-const Hooks2 = () => {
+const UseEffect = () => {
 
     const [ users, setUsers ] = useState([]);
 
@@ -37,4 +37,4 @@ loadData();
   )
 }
 
-export default Hooks2
+export default UseEffect

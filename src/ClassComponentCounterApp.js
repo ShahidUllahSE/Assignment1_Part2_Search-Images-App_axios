@@ -1,6 +1,6 @@
 import react,{Component} from 'react'
 
-export default class Pract2 extends Component{
+export default class ClassComponentCounterApp extends Component{
 
     constructor(props){
 

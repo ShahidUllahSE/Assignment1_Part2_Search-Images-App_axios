@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Hooks = () => {
+const FunctionalCounterApp = () => {
     const [counter,setCounter]=useState(0)
 const handlePlus=()=>{
 setCounter(counter+1)
@@ -26,4 +26,4 @@ const handleReset=()=>{
   )
 }
 
-export default Hooks
+export default FunctionalCounterApp

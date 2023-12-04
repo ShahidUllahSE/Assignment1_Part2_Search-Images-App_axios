@@ -49,6 +49,7 @@ this.setState({
       id='search'
       onChange={this.handleChange}
       value={this.state.keyword}
+      placeholder='Search Images'
        />
     <button id='serachbtn' >Search</button>
 </form>
