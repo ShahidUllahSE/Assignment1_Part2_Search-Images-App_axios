@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useState } from "react";
 
-const PropsUse = (props) => {
+const PropsUse_UseState = (props) => {
   const [image, setRandomImage] = useState();
 
   const cardStyle = {
@@ -38,4 +38,4 @@ const PropsUse = (props) => {
   );
 };
 
-export default PropsUse;
+export default PropsUse_UseState;

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-function Search2() {
+function FunctionalSearchImages() {
   const [keyword, setKeyword] = useState('');
   const [results, setResults] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -50,4 +50,4 @@ function Search2() {
   );
 }
 
-export default Search2;
+export default FunctionalSearchImages;

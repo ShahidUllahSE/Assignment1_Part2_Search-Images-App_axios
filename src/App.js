@@ -43,7 +43,9 @@ import React, { Component } from 'react'
 import Search from './components/Search'
 import FunctionalCounterApp from './components/FunctionalCounterApp'
 import UseEffect from './components/UseEffect'
-import ClassComponentCounterApp from './ClassComponentCounterApp'
+import ClassComponentCounterApp from './components/ClassComponentCounterApp'
+import PropsUse_UseState from './components/PropsUse_UseState'
+
 
 export default class App extends Component {
   render() {
@@ -52,8 +54,9 @@ export default class App extends Component {
         <Search/>
         <FunctionalCounterApp/>
         <UseEffect/>
-        <ClassComponentCounterApp/>
-        
+        <ClassComponentCounterApp/>      
+        <PropsUse_UseState/>
+                
 
 
       </div>
